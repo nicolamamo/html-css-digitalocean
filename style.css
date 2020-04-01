@@ -1,0 +1,42 @@
+*{
+    margin: 0.;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{margin: 0;}
+.navbar-brand{max-width: 200px;}
+img{max-width: 100%;
+  height:auto;
+}
+
+.btn{margin-top: 15px;
+margin-bottom: 15px;}
+
+
+.navbar-brand{padding-top: 0;}
+
+.nav>li>a.avviso{padding-left: 0;}
+
+.btn{color: blue;
+border-color: blue;
+}
+.jumbotrone{background-color: blue;}
+#text{width: 50%;
+margin-top: 100px;
+float: left;
+}
+#text2{width: 50%;
+margin-top: 100px;
+float: left;
+background-color: white;
+}
+#p1{font-size: 40px;
+font-weight: bold;
+color: white;}
+.h3{font-size: 24px;
+color: white;}
+.h2{font-size: 30px;
+font-weight: bold;
+color: black;}
+#full-name{font-weight: bold;}
+#email{font-weight: bold;}
