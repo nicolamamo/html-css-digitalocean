@@ -20,13 +20,16 @@ margin-bottom: 15px;}
 .btn{color: blue;
 border-color: blue;
 }
-.jumbotrone{background-color: blue;}
+.jumbotrone{
+    background-image: url(immagini/immagine-sfondo.jpg);
+    height: 100vh
+}
 #text{width: 50%;
-margin-top: 100px;
+margin-top: 150px;
 float: left;
 }
-#text2{width: 50%;
-margin-top: 100px;
+#text2{width: 40%;
+margin-top: 40px;
 float: left;
 background-color: white;
 }
@@ -40,3 +43,38 @@ font-weight: bold;
 color: black;}
 #full-name{font-weight: bold;}
 #email{font-weight: bold;}
+#btn-2{background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+span{text-align: center;
+    color: #5b6987;
+    display: -ms-grid;
+    display: grid;
+    font-size: 16px;
+    width: 100%;
+position: relative;}
+
+span::before {
+content: '';
+position: absolute;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+width: 150px;
+height: 3px;
+background-color: grey;
+}
+
+span::after {
+content: '';
+position: absolute;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+width: 150px;
+height: 3px;
+background-color: grey;
+}
